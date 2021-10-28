@@ -1,9 +1,8 @@
 # Scam and Phishing Links Catching API
 
 ## Usage
-**Examples**
+- **Example #1 (Common Use)**
 
-- NPM Package
 ```js
 const catchscamjs = require("@bryendaco/catchscam.js"); // Load Package
 
@@ -16,7 +15,7 @@ catchscamjs(content).then(console.log);
 // if it is not a scam returns 'false' - (boolean)
 ```
 
-- Discord Bots
+- **Example #2 (Discord.js Use)**
 ```js
 const catchscams = require("@bryendaco/catchscam.js");
 const discord = require('discord.js'); // Version: 13 (discord.js v13)
