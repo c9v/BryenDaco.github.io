@@ -1,5 +1,5 @@
 const axios = require("axios");
-const discord = require('discord.js'); // 13.0.0, 13.0.1, 13.1.0, 13.2.0
+const discord = require('discord.js'); // Version: 13 (discord.js v13)
 
 const client = new discord.Client({intents: [discord.Intents.FLAGS.DIRECT_MESSAGES, discord.Intents.FLAGS.GUILD_MESSAGES]});
 
