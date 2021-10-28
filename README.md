@@ -1,3 +1,23 @@
+# Scam and Phishing Links Catching API
+
+## Usage
+**Examples**
+
+- NPM Package
+```js
+const catchscamjs = require("@bryendaco/catchscam.js"); // Load Package
+
+let content = `:warning: Hi i claim this nitro for free 3 months lol! try it too. https://dliscord.com/x4Cs7cDt2sdFOf12`
+
+catchscamjs(content).then(console.log);
+// See if there is a Scam or Phishing link in 'content'
+
+//if it is a scam returns 'true' - (boolean)
+// if it is not a scam returns 'false' - (boolean)
+```
+
+- Use API directly for Discord Bots
+```js
 const axios = require("axios");
 const discord = require('discord.js'); // Version: 13 (discord.js v13)
 
@@ -12,3 +32,4 @@ client.on('messageCreate', async message => {
 });
 
 client.login("Your-Bot-Token")
+```
