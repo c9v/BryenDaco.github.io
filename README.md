@@ -24,10 +24,10 @@ const discord = require('discord.js'); // Version: 13 (discord.js v13)
 const client = new discord.Client({intents: [discord.Intents.FLAGS.DIRECT_MESSAGES, discord.Intents.FLAGS.GUILD_MESSAGES]});
 
 client.on('messageCreate', async message => {
-		catchscams(message.content).then(x => {
-			if (x == true) return message.delete();
-		});
+	catchscams(message.content).then(x => {
+		if (x == true) return message.delete();
 	});
+});
 
 client.login("Your-Bot-Token")
 ```
