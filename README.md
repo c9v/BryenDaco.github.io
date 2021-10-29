@@ -1,4 +1,5 @@
 # Scam and Phishing Links Catching API
+24/7 Updating [API](https://bryendaco.github.io/catchscams.json)
 
 ## Usage
 - **Example #1 (Common Use)**
